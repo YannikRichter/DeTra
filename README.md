@@ -24,3 +24,4 @@ Within the menu, the left touch pin is used to move the cursor up and the right 
 ## Repository Contents
 * **/src** - Source files for the library (.cpp, .h).
 * **/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE.
+* **/Images** - Images for the repository.
