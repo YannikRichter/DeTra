@@ -1,7 +1,7 @@
 # COVID-19 Detector and Transmitter Bracelet (DeTra)
 The smart bracelet detects symptoms of COVID-19/ SARS-CoV-2. It can wirelessly transmit the data to help centers or warn the person automatically
 
-![](DeTra.png)
+![](Images/DeTra.png)
 
 ## Introduction
 The COVID-19 Detector and Transmitter Bracelet is designed to detect possible COVID-19 outbreaks in crowded areas. In order to control the virus’ spread, data can either be transmitted to medical staff or advise the bracelet carrier to consult a doctor.
@@ -19,4 +19,4 @@ DeTra is characterized by its user-friendly operation and its long battery life.
 
 Within the menu, the left touch pin is used to move the cursor up and the right touch pin is used to move the cursor down. When reaching the parameter to be measured, it will be selected automatically after a defined amount of time. To stop the measurement both pins need to be touched simultaneously and DeTra returns to deep sleep mode.
 
-![](Start_Menue.PNG)
+![](Images/Start_Menue.PNG)
