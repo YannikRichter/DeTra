@@ -20,3 +20,7 @@ DeTra is characterized by its user-friendly operation and its long battery life.
 Within the menu, the left touch pin is used to move the cursor up and the right touch pin is used to move the cursor down. When reaching the parameter to be measured, it will be selected automatically after a defined amount of time. To stop the measurement both pins need to be touched simultaneously and DeTra returns to deep sleep mode.
 
 ![](Images/Start_Menue.PNG)
+
+## Repository Contents
+* **/src** - Source files for the library (.cpp, .h).
+* **/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE.
