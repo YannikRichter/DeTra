@@ -3,6 +3,7 @@ The smart bracelet detects symptoms of COVID-19/ SARS-CoV-2. It can wirelessly t
 
 git add DeTra.png
 
+## Introduction
 The COVID-19 Detector and Transmitter Bracelet is designed to detect possible COVID-19 outbreaks in crowded areas. In order to control the virus’ spread, data can either be transmitted to medical staff or advise the bracelet carrier to consult a doctor.
 
 The low-cost architecture of the device and its use of low-power wide-area networks (LPWAN) makes it ideal for areas with limited or no internet coverage.
