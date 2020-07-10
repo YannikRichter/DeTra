@@ -21,6 +21,18 @@ Within the menu, the left touch pin is used to move the cursor up and the right 
 
 ![](Images/Start_Menue.PNG)
 
+## Monitoring
+In order to visualize the data, Node-Red receives the organized data from “The Things Network” and displays it in a dashboard for easy analysis by e.g. medical authorities.
+
+Node-Red and “The Things Network” communicate via the MQTT protocol. For further processing, the format of the messages sent by “The Things Network” are converted from JSON strings into a JSON object.
+
+The dashboard is divided into four columns: heartbeat, Spo2, body temperature, and acetone. The first row of each group shows the history of the measured values. The second row visualizes the current value. To get a better overview of the values, the last row visualizes the average value, as well as the maximum and minimum value, which are calculated and filtered out by DeTra.
+
+If DeTra detected a possible COVID-19 infection, a notification on the right top of the Dashboard will pop up.
+
+
+![](Images/Start_Menue.PNG)
+
 ## Repository Contents
 * **/src** - Source files for the library (.cpp, .h).
 * **/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE.
