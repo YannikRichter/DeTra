@@ -31,7 +31,7 @@ The dashboard is divided into four columns: heartbeat, Spo2, body temperature, a
 If DeTra detected a possible COVID-19 infection, a notification on the right top of the Dashboard will pop up.
 
 
-![](Images/Start_Menue.PNG)
+![](Images/Dashboard.PNG)
 
 ## Repository Contents
 * **/src** - Source files for the library (.cpp, .h).
