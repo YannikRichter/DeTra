@@ -26,6 +26,21 @@ The measuring device can be charged by a Micro-USB. Care was taken to keep the d
 
 ![](Images/inner_life.png)
 
+## Operation of the device
+Most of the time, the device is in a deep sleep mode in order to store energy and at the same time to increase its running time. The measuring device measures the Parameters automatically or manually at the user's request. The menu is divided into a manual and an automatic measuring loop.
+
+The Manual measurements include the detection of acetone in the air and the measurement of the pulse,
+the oxygen saturation of the blood and the body temperature. The automatic measurement calculates the pulse, the oxygen saturation of the blood and the body temperature.
+
+To enter the menu, the two touch pins on the front of the Device needs to be pressed. This wakes up the measuring device from deep sleep and the menu is shown on the display. 
+The left touch pin moves the cursor up within the menu. The right touch pin moves the cursor down. When the cursor has reached the desired measurement, this measurement is 
+confirmed by pressing both Touch Pins simultaneously.
+
+If manual measurement is selected, the measured values are shown on the display of the measuring device. After the manual measurement is finished, the the automatic 
+measurements are performed in an intervall of three hours for the periodic value acquisition. The results of the automatic measurements are not shown on the display to save 
+energy. The measured values are sent via LoRa and the measuring device returns back into a more power-saving Deep sleep mode.
+
+
 ## Monitoring
 In order to visualize the data, Node-Red receives the organized data from “The Things Network” and displays it in a dashboard for easy analysis by e.g. medical authorities.
 
