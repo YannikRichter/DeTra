@@ -13,6 +13,15 @@ By using different sensors, DeTra measures vital signs such as heart rate, body 
 The real-time data transmission occurs via long-range radio waves using an integrated antenna.
 
 Additionally, other health problems can also be monitored using DeTra, e.g. by indicating an upcoming diabetic coma of diabetes type 1 patients.
+## Housing of DeTra
+To protect the measuring device from foreign bodies and contact as well as from water and
+moisture, a CAD model was developed for 3D printing.
+The BME680 sensor is located on the front of the housing. Trough this the acetone from the air we breathe can be detected. 
+The sensor is fixed by nuts on the top of the housing. These two nuts also function as a touch sensor.
+Pins to control the measuring device. 
+On the lower side of the housing the MAX30105 sensor is located. This allows the sensor to lie directly on the skin and measure the specific parameters pulse, oxygen saturation and body temperature.
+
+![](Images/inner_life.png)
 
 ## Operation of DeTra
 DeTra is characterized by its user-friendly operation and its long battery life. DeTra is charged via Micro-USB. If DeTra is not used it falls into deep sleep mode. To collect data DeTra wakes up every 3 hours and measures the corresponding vital parameters. For entering the menu, one of the two touch pins on the front of DeTra needs to be pressed, which automatically wakes up the device.
