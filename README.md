@@ -40,7 +40,7 @@ If manual measurement is selected, the measured values are shown on the display 
 measurements are performed in an intervall of three hours for the periodic value acquisition. The results of the automatic measurements are not shown on the display to save 
 energy. The measured values are sent via LoRa and the measuring device returns back into a more power-saving Deep sleep mode.
 
-![](Images/menu.png)
+![](Images/menu.PNG)
 
 ## Monitoring
 In order to visualize the data, Node-Red receives the organized data from “The Things Network” and displays it in a dashboard for easy analysis by e.g. medical authorities.
