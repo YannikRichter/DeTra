@@ -18,8 +18,7 @@ To protect the measuring device from foreign bodies and contact as well as from 
 moisture, a CAD model was developed for 3D printing.
 The BME680 sensor is located on the front of the housing. Trough this the acetone from the air we breathe can be detected.
 
-The sensor is fixed by nuts on the top of the housing. These two nuts also function as a touch sensor.
-Pins to control the measuring device.
+The sensor is fixed by nuts on the top of the housing. These two nuts also function as a touch sensor Pins to control the measuring device.
 
 On the lower side of the housing the MAX30105 sensor is located. This allows the sensor to lie directly on the skin and measure the specific parameters pulse, oxygen saturation and body temperature.
 
